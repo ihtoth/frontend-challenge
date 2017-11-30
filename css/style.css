@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body {
-  background-color: #fff;
-  font-size: 10px;
+  background-color: #252525;
+  font-size: 11px;
   font-family: Avenir, Open-Sans, sans-serif;
 }
 
@@ -14,30 +14,76 @@ body {
   width: 375px;
   background-color: #7F7F7F;
 }
-
-.backgrnd{
-  background-image: url(/img/Top.png);
-  background-size:contain;
-  height: 318px;
+nav{
+  height: 70px;
+  background-image:url(/img/nav-background.png);
+  background-size: contain;
+  padding: 20px;
 }
 
+nav img, nav h1{
+  height: 25px;
+  line-height: 25px;
+  float: left;
+  font-size: 2.2em;
+}
+nav img{
+  margin-right: 3%;
+  width:5%;
+}
+nav h1{
+text-align: center;
+width: 72%;
+font-weight: 500;
+}
+
+nav .id{
+  width: 20%;
+  float:right;
+  color: #4A4A4A;
+  text-align: right;
+}
+
+.backgrndMap{
+  background-image: url(/img/Map.png);
+  background-size:contain;
+  height: 211px;
+}
+.backgrndBottom{
+  background-image: url(/img/Bottom.png);
+  background-size:contain;
+  height: 54px;
+  position: fixed;
+  bottom: 0;
+  width: 375px;
+}
+ul{
+  margin-bottom: 54px;
+}
 .listTitle{
   background-color: #7F7F7F;
   height:48px;
   padding: 10px 20px 10px 20px;
 }
 
+.listElement:hover{
+  background-color:#D1D0FF;
+}
+
 .listElement{
-  height: 39px;
+  overflow: hidden;
+  height: 3.7em;
   background-color:#EDEDED;
   padding: 6px 20px;
   margin-bottom: 2px;
 }
 
+
+
 .listTitle h2, .listElement h3{
   font-size: 1.5em;
   float: left;
-  line-height: 1.8em;
+  line-height: 1.7em;
 }
 
 .listTitle h2 {
@@ -47,37 +93,56 @@ body {
 }
 
 .listTitle .freq{
-  padding-left: 13%;
+  /*padding-left: 12%;*/
+  text-align: right;
+
 }
 .listElement h3{
   font-weight: 300;
   color: #0D0D0D;
-}
-.dest {
- padding-left: 4%;
+
 }
 
-.listElement .dest{
-  width: 58.5%;
+.listElement .greyBox{
+  font-size: 0.7em;
+  color: #4F4F4F;
+  background-color: #D8D8D8;
+  padding: 0.2em 0.3em 0em;
+  margin: 4% 0;
+  font-weight: 400;
+  text-align: right;
+  float:right;
+
+}
+
+.dest{
+  width: 47.5%;
+}
+.listTitle .dest{
+  padding-left: 3%;
+}
+.listElement .destNoDir{
+  padding-left: 8px;
+  width: 57.5%;
 }
 
 .listElement .freq{
-  width: 32.5%;
-}
-.listElement .freq .mins{
+  width: 33.5%;
+  padding-left: 0em;
   font-size: 1.6em;
   color: #5856D6;
   font-weight: 400;
+  text-align: right;
 }
 
-.icon, .recurringSymbol, .listElement .freq, .mins{
+.icon, .dirSymbol, .listElement .freq{
   float: left;
 }
 
 .icon{
   height:29px;
 }
-.recurringSymbol{
-  height: 18.34px;
-  margin: 4px 6px 0 0;
+.dirSymbol{
+  height: 24px;
+  margin: 2px 4px 0 4px;
 }
