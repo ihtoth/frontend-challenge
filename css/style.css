@@ -12,7 +12,7 @@ body {
   width: 100%;
   margin: 0 auto;
   width: 375px;
-  background-color: #404040;
+  background-color: #7F7F7F;
 }
 
 .backgrnd{
@@ -31,6 +31,7 @@ body {
   height: 39px;
   background-color:#EDEDED;
   padding: 6px 20px;
+  margin-bottom: 2px;
 }
 
 .listTitle h2, .listElement h3{
@@ -45,18 +46,15 @@ body {
   width: 45.5%;
 }
 
+.listTitle .freq{
+  padding-left: 13%;
+}
 .listElement h3{
   font-weight: 300;
   color: #0D0D0D;
 }
-
 .dest {
  padding-left: 4%;
-}
-
-.listTitle .freq{
-  /*text-align: left;*/
-  padding-left: 13%;
 }
 
 .listElement .dest{
@@ -65,7 +63,6 @@ body {
 
 .listElement .freq{
   width: 32.5%;
-  /*float:left;*/
 }
 .listElement .freq .mins{
   font-size: 1.6em;
