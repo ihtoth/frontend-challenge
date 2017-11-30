@@ -1,0 +1,86 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-size: 10px;
+  font-family: Avenir, Open-Sans, sans-serif;
+}
+
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  width: 375px;
+  background-color: #404040;
+}
+
+.backgrnd{
+  background-image: url(/img/Top.png);
+  background-size:contain;
+  height: 318px;
+}
+
+.listTitle{
+  background-color: #7F7F7F;
+  height:48px;
+  padding: 10px 20px 10px 20px;
+}
+
+.listElement{
+  height: 39px;
+  background-color:#EDEDED;
+  padding: 6px 20px;
+}
+
+.listTitle h2, .listElement h3{
+  font-size: 1.5em;
+  float: left;
+  line-height: 1.8em;
+}
+
+.listTitle h2 {
+  font-weight: 450;
+  color: #EDEDED;
+  width: 45.5%;
+}
+
+.listElement h3{
+  font-weight: 300;
+  color: #0D0D0D;
+}
+
+.dest {
+ padding-left: 4%;
+}
+
+.listTitle .freq{
+  /*text-align: left;*/
+  padding-left: 13%;
+}
+
+.listElement .dest{
+  width: 58.5%;
+}
+
+.listElement .freq{
+  width: 32.5%;
+  /*float:left;*/
+}
+.listElement .freq .mins{
+  font-size: 1.6em;
+  color: #5856D6;
+  font-weight: 400;
+}
+
+.icon, .recurringSymbol, .listElement .freq, .mins{
+  float: left;
+}
+
+.icon{
+  height:29px;
+}
+.recurringSymbol{
+  height: 18.34px;
+  margin: 4px 6px 0 0;
+}
