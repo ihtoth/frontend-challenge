@@ -16,7 +16,7 @@ body {
 }
 nav{
   height: 70px;
-  background-image:url(/img/nav-background.png);
+  background-image:url(../img/nav-background.png);
   background-size: contain;
   padding: 20px;
 }
