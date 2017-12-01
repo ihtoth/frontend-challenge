@@ -45,7 +45,7 @@ nav .id{
 }
 
 .backgrndMap{
-  background-image: url(/img/Map.png);
+  background-image: url(../img/Map.png);
   background-size:contain;
   height: 211px;
 }
