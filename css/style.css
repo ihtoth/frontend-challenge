@@ -19,6 +19,10 @@ nav{
   background-image:url(../img/nav-background.png);
   background-size: contain;
   padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 375px;
+  z-index: 1;
 }
 
 nav img, nav h1{
@@ -48,6 +52,10 @@ nav .id{
   background-image: url(../img/Map.png);
   background-size:contain;
   height: 211px;
+  position: fixed;
+  top: 70px;
+  width: 375px;
+  z-index: 0;
 }
 .backgrndBottom{
   background-image: url(../img/Bottom.png);
@@ -60,12 +68,18 @@ nav .id{
 }
 ul{
   margin-bottom: 54px;
+  margin-top: 281px;
 }
 .listTitle{
   background-color: #7F7F7F;
   height:48px;
   padding: 10px 20px 10px 20px;
+  /*position: fixed;
+  top: 281px;
+  width: 375px;
+  z-index: 1;*/
 }
+
 
 .listElement:hover{
   background-color:#D1D0FF;
@@ -94,7 +108,6 @@ ul{
 }
 
 .listTitle .freq{
-  /*padding-left: 12%;*/
   text-align: right;
 
 }
